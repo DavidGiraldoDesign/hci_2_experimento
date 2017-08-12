@@ -20,5 +20,11 @@
 	<classpathentry kind="lib" path="libs/jogl-all-natives-windows-i586.jar"/>
 	<classpathentry kind="lib" path="libs/jogl-all.jar"/>
 	<classpathentry kind="lib" path="libs/jSerialComm-1.3.11.jar"/>
+	<classpathentry kind="lib" path="musica/jl1.0.jar"/>
+	<classpathentry kind="lib" path="musica/jsminim.jar"/>
+	<classpathentry kind="lib" path="musica/minim.jar"/>
+	<classpathentry kind="lib" path="musica/mp3spi1.9.4.jar"/>
+	<classpathentry kind="lib" path="musica/tritonus_aos.jar"/>
+	<classpathentry kind="lib" path="musica/tritonus_share.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

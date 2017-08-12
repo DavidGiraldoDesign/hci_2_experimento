@@ -39,5 +39,7 @@ public class Logica implements Observer {
 		potrero.ejecutar();
 
 	}
+	
+	
 
 }
