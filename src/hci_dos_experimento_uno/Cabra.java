@@ -25,7 +25,7 @@ public class Cabra extends Thread {
 		topspeed = (int) p.random(1, 5);
 		cambio = (int) p.random(10, 100);
 
-		this.r = 255; // :v
+		this.r = 255;
 		this.g = 250;
 		this.b = 240;
 
