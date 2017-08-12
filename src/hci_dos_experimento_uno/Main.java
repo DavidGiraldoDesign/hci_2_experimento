@@ -32,7 +32,12 @@ public class Main extends PApplet {
 
 	@Override
 	public void mousePressed() {
-		r.reproducir_sample(0);
+		if (mouseButton == LEFT) {
+			r.reproducir_sample(0);
+		}else{
+			r.reproducir_sample(1);
+		}
+
 	}
 
 }

@@ -6,14 +6,15 @@ import processing.core.PApplet;
 public class Reproductor {
 
 	private Minim minim;
-	private AudioPlayer[] cancion = new AudioPlayer[6];
+	private AudioPlayer[] cancion = new AudioPlayer[0];
 	private AudioSample[] sample = new AudioSample[2];
 
 	public Reproductor(PApplet app) {
 
 		minim = new Minim(app);
 
-		sample[0] = minim.loadSample("sonidos/goat_nace.wav", 1024);
+		sample[0] = minim.loadSample("../sonidos/goat.mp3",1024);
+		sample[1] = minim.loadSample("../sonidos/goat_die.mp3",1024);
 
 	}
 
